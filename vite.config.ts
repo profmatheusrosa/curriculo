@@ -204,7 +204,7 @@ function vitePluginStorageProxy(): Plugin {
 }
 
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
-const base = process.env.GITHUB_PAGES === "true" ? "/matheus-rosa-curriculo/" : "/";
+const base = process.env.GITHUB_PAGES === "true" ? "/curriculo/" : "/";
 
 export default defineConfig({
   base,
